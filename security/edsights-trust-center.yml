@@ -1,0 +1,15 @@
+generated: '2026-07-19'
+method: searched
+source: https://trust.edsights.io/
+url: https://trust.edsights.io/
+platform: Vanta Trust Center
+# The trust center page returns HTTP 200 and is a real, security-focused
+# Vanta-hosted trust portal ("security at the heart of everything we build").
+# Named certifications are rendered client-side behind Vanta and were NOT
+# extractable from the static HTML, so none are asserted here — no fabrication.
+# A follow-up with access to the gated document list can enrich certifications.
+certifications: []
+evidence:
+- source: https://trust.edsights.io/
+  kind: trust-center
+  detail: HTTP 200; Vanta Trust Center; meta description emphasizes data protection and security posture

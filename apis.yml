@@ -1,7 +1,30 @@
 aid: edsights
 name: EdSights
-description: EdSights is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  EdSights is a student voice and engagement platform for higher education. It
+  pairs an AI-powered SMS chatbot with real-time analytics to collect continuous
+  feedback from students, surface persistence and well-being risk, and flag
+  individuals who need staff intervention. Its Student Voice Score (SVS)
+  benchmarks student satisfaction the way NPS benchmarks customers, and
+  institutional dashboards help retention, advising, and student-success teams
+  act on that feedback throughout the academic journey. EdSights serves 290+
+  colleges and universities and connects to campus systems — Banner SIS, Slate,
+  Salesforce, Starfish, EAB Navigate360, and Pharos — via SFTP data feeds. The
+  company is Techstars-backed. As of this profile EdSights exposes no public
+  developer API, OpenAPI specification, SDKs, or webhooks; integration is
+  data-file (SFTP) based, so most API-artifact enrichment is not applicable.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6644271adb6d248ebe3108d8/66ad04784d9d2e9ea630b768_EdSightsOpengraphImage.png
 url: https://raw.githubusercontent.com/api-evangelist/edsights/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Education
+- Higher Education
+- Student Success
+- Retention
+- Chatbot
+- SMS
+- Conversational AI
+- Analytics
+- EdTech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +54,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://edsights.io/
+  url: https://www.edsights.com/
+- type: Login
+  url: https://app.edsights.io/
+- type: Blog
+  url: https://www.edsights.com/blog
+- type: PrivacyPolicy
+  url: https://www.edsights.com/general-privacy-policy
+- type: TrustCenter
+  url: https://trust.edsights.io/
+- type: GitHubOrganization
+  url: https://github.com/edsights
+- type: DomainSecurity
+  url: security/edsights-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
