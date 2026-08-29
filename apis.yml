@@ -13,6 +13,17 @@ description: >-
   company is Techstars-backed. As of this profile EdSights exposes no public
   developer API, OpenAPI specification, SDKs, or webhooks; integration is
   data-file (SFTP) based, so most API-artifact enrichment is not applicable.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
