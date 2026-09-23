@@ -1,0 +1,27 @@
+# Front Door AI Index — edsights — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: edsights
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.edsights.com
+  final_host: www.edsights.com
+  ownership: own
+  owner: edsights
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 12
+  host_score: 12
+  density: 10.23
+  words: 1173
+  tiers:
+    agentic: 4
+    core: 8
+    model: 0
+  ambiguous: 2
+  top_terms:
+    AI: 8
+    chatbot: 4
+    intelligence: 2
